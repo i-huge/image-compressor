@@ -1,5 +1,5 @@
 <?php
-include('./lib/function.php');
+include('function.php');
 include('./lib/Compress.php');
 class Command
 {
@@ -194,7 +194,7 @@ class Command
      */
     private function reloadConfig()
     {
-        $this->config = include('./lib/config.php');
+        $this->config = include('config.php');
         $this->inputDir = isset($this->config['inputDir']) && is_dir($this->config['inputDir']) ? $this->config['inputDir'] : './io/input/';
         $this->outputDir = isset($this->config['outputDir']) && !empty($this->config['outputDir']) ? $this->config['outputDir'] : './io/output/';
         $this->microTime = isset($this->config['microTime']) && !empty($this->config['microTime']) ? $this->config['microTime'] : 100;
