@@ -1,2 +1,2 @@
-# image_compress
+# image-compressor
 image compress
