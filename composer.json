@@ -1,6 +1,12 @@
 {
     "name": "lilige/image-compressor",
     "description": "image compress",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/LL1021151531/image-compressor.git"
+        }
+    ],
     "license": "GPL-2.0",
     "autoload": {
         "psr-4": {
