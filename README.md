@@ -1,5 +1,5 @@
 # image-compressor
 image compress
 
-# 使用
+## 用法
 php index.php
