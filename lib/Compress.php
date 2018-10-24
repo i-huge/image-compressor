@@ -6,7 +6,7 @@
  *
  * 结果：可保存、可直接显示。
  */
-namespace Lilige\Image\Compressor;
+namespace Image\Compressor;
 
 class Compress
 {
