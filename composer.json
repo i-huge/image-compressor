@@ -10,7 +10,7 @@
     "license": "GPL-2.0",
     "autoload": {
         "psr-4": {
-            "Image\\": "lib/"
+            "Lilige\\Image\\Compressor": "lib/"
         }
     }
 }
